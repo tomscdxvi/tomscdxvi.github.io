@@ -49,19 +49,15 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "I am forever curious and have a desire to learn the newest technologies that revolve around Software Engineering and Full Stack/Web Development.",
+  subTitle: "I research a variety of technologies for Software Engineering and Full Stack/Web Development, utilizing them to bring my creative ideas to life.",
   skills: [
-    emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
-    ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
+    emoji("⚡ Develop highly interactive Front-end web and mobile applications"),
+    emoji("⚡ Build Progressive Web Applications (PWA)"),
+    emoji("⚡ Integration of third party services such as Firebase/AWS to deploy your web applications")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
-https://fontawesome.com/icons?d=gallery */
+https://fontawesome.com/icons?dnexty=gallery */
 
   softwareSkills: [
     {
@@ -76,10 +72,12 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "React.js",
       fontAwesomeClassname: "fab fa-react"
     },
+    /*
     {
-      skillName: "Node.js",
-      fontAwesomeClassname: "fab fa-node"
+      skillName: "Next.js",
+      fontAwesomeClassname: "fas fa-"
     },
+    */
     {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
@@ -104,10 +102,11 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "AWS",
       fontAwesomeClassname: "fab fa-aws"
     },
+    /*
     {
       skillName: "CI/CD",
       fontAwesomeClassname: "fas fa-"
-    },
+    },*/
     {
       skillName: "Git",
       fontAwesomeClassname: "fab fa-git"
@@ -148,13 +147,12 @@ const educationInfo = {
   schools: [
     {
       schoolName: "Sheridan College",
-      logo: require("./assets/images/harvardLogo.png"),
+      logo: require("./assets/images/sheridan-logo.png"),
       subHeader: "Advanced Diploma in Software Development and Network Engineering",
       duration: "January 2020 - December 2023",
-      desc: "Founded the Exercise Lifestyle Club",
+      desc: "",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Founder of the Exercise Lifestyle Club with over 40+ members",
       ]
     },
   ]
@@ -166,36 +164,55 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Full Stack Developer Intern",
+      role: "Full Stack Developer, Intern",
       company: "Idea Theorem",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      companylogo: require("./assets/images/idea-theorem.png"),
+      date: "May 2023 – August 2023",
+      desc: "Full Stack Developer Intern for Idea Theorem, a web design/development agency",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Developed web pages to help finalize a project using HTML, CSS (SCSS), and JavaScript (jQuery) to meet client requirements.",
+        "Built web applications and components to assist lead developers by using JavaScript and React.js (Next.js) to speed up the deployment process for testing.",
+        "Developed back-end APIs using JavaScript and tested using Postman/Swagger to avoid higher-level issues in development."
       ]
     },
     {
-      role: "UI Developer",
+      role: "UI Developer, Intern",
       company: "Nokia",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      companylogo: require("./assets/images/nokia-logo.png"),
+      date: "September 2022 – April 2023",
+      desc: "UI Developer Intern for Nokia's R&D team",
+      descBullets: [
+        "Developed web pages using React.js with Storybook to provide a detailed explanation of services and components that are provided.",
+        "Updated existing React.js components to meet Nokia's latest requirements and standards.",
+        "Configured automated tests using Cypress, Mocha, and Jest to ensure that the components were working as intended for users.",
+        "Worked with Jenkins to automate builds and deployment by streamlining the process into a continuous integration pipeline."
+      ]
     },
     {
-      role: "Technical Support Intern",
+      role: "Technical Support, Intern",
       company: "Sheridan College",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      companylogo: require("./assets/images/sheridan-logo.png"),
+      date: "January 2022 – April 2022",
+      desc: "Technical Support Intern for Sheridan College's career-related and job-related platform Sheridan Works!",
+      descBullets: [
+        "Developed static HTML pages for Sheridan Works! to incorporate a modern style and mobile responsiveness.",
+        "Assisted employees and peers with technical issues.",
+        "Cleaned data through excel and updated changes into the live environment.",
+        "Tested new systems in Sheridan Works! to prevent issues from occurring in the live environment."
+      ]
     },
     {
-      role: "Software Engineer Intern",
+      role: "Software Engineer, Intern",
       company: "Divercity",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      companylogo: require("./assets/images/divercity-logo.png"),
+      date: "June 2021 – January 2022",
+      desc: "Software Engineer Intern at Divercity, a diversity and inclusion hiring platform",
+      descBullets: [
+        "Developed RESTful APIs using Node.js and Express.js to meet technical requirements set by the lead developers.",
+        "Fixed bugs and tested endpoints for APIs using Postman to ensure data was being sent through as requested.",
+        "Built front-end components using React.js and TailwindCSS.",
+        "Planned and led development workshops for designers to allow them to stay up-to-date with our technology stack."
+      ]
     }
   ]
 };
@@ -215,19 +232,32 @@ const bigProjects = {
   subtitle: "Some startups, companies, and personal projects that I worked on or was directly involved in.",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Bloomsie",
-      projectDesc: "May 2023 - August 2023: Assisted in the development and production of Bloomsie.",
+      image: require("./assets/images/auxo-logo.png"),
+      projectName: "Auxo",
+      projectDesc: "Public Project on Github",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "Github Repo",
+          url: "https://github.com/tomscdxvi/auxo"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
+      image: require("./assets/images/bloomsie-logo.jpg"),
+      projectName: "Bloomsie",
+      projectDesc: "May 2023 - August 2023: Assisted in the development and production of Bloomsie.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://www.bloomsie.com/"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    /*
+    {
+      image: require("./assets/images/sheridan-works.png"),
       projectName: "Sheridan Works!",
       projectDesc: "January 2022 - April 2022: Developed and designed new web pages for the Sheridan Works! platform.",
       footerLink: [
@@ -236,7 +266,32 @@ const bigProjects = {
           url: "http://nextu.se/"
         }
       ]
-    }
+    },
+    */
+    {
+      // image: require("./assets/images/saayaHealthLogo.webp"),
+      projectName: "StellarBot",
+      projectDesc: "Public Project on Github",
+      footerLink: [
+        {
+          name: "Github Repo",
+          url: "https://github.com/tomscdxvi/stellarbot"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      // image: require("./assets/images/saayaHealthLogo.webp"),
+      projectName: "Melos",
+      projectDesc: "Public Project on Github",
+      footerLink: [
+        {
+          name: "Github Repo",
+          url: "https://github.com/tomscdxvi/melos"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -367,10 +422,10 @@ const resumeSection = {
 };
 
 const contactInfo = {
-  title: emoji("Contact Me ☎️"),
+  title: emoji("Contact Me"),
   subtitle:
     "Let's Chat!",
-  // number: "+92-0000000000",
+  // number: "",
   email_address: "txmmychiu@gmail.com"
 };
 
