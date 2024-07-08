@@ -246,7 +246,7 @@ const bigProjects = {
     {
       image: require("./assets/images/bloomsie-logo.jpg"),
       projectName: "Bloomsie",
-      projectDesc: "May 2023 - August 2023: Assisted in the development and production of Bloomsie.",
+      projectDesc: "May 2023 - August 2023: Assisted in the development and production of Bloomsie during my time at Idea Theorem",
       footerLink: [
         {
           name: "Visit Website",
