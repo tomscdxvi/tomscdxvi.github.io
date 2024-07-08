@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/static/css/main.8739755c.css",
+    "main.js": "/static/js/main.1b459e7c.js",
+    "static/css/64.aef006b6.chunk.css": "/static/css/64.aef006b6.chunk.css",
+    "static/js/64.56dc6704.chunk.js": "/static/js/64.56dc6704.chunk.js",
+    "static/css/769.b3cbb36b.chunk.css": "/static/css/769.b3cbb36b.chunk.css",
+    "static/js/769.bda0d7b7.chunk.js": "/static/js/769.bda0d7b7.chunk.js",
+    "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
+    "static/media/Agustina.woff": "/static/media/Agustina.eb0c59dda4cc308cba96.woff",
+    "static/media/auxo-logo.png": "/static/media/auxo-logo.f0e437a26bb9938cbee4.png",
+    "static/media/manOnTable.svg": "/static/media/manOnTable.8f117eb207e57ed8f89d67d595aceb45.svg",
+    "static/media/divercity-logo.png": "/static/media/divercity-logo.c926366741a64643a16b.png",
+    "static/media/contactMailDark.svg": "/static/media/contactMailDark.1db650d351729a0f17b4e3104e6a7b7a.svg",
+    "static/media/developerActivity.svg": "/static/media/developerActivity.2c0445cae86f4243433a2f5a22b2c031.svg",
+    "static/media/googleAssistantLogo.webp": "/static/media/googleAssistantLogo.f720c71652579588524a.webp",
+    "static/media/nokia-logo.png": "/static/media/nokia-logo.dc5c5de644f10b860ae7.png",
+    "static/media/bloomsie-logo.jpg": "/static/media/bloomsie-logo.52c77b9f98c24434eeb2.jpg",
+    "static/media/codeInLogo.webp": "/static/media/codeInLogo.e41a71d512efeda2a55c.webp",
+    "static/media/skill.svg": "/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
+    "static/media/resume.pdf": "/static/media/resume.f0f733dd3cd732b39262.pdf",
+    "static/media/pwaLogo.webp": "/static/media/pwaLogo.8bf2293da0ca66249e37.webp",
+    "index.html": "/index.html",
+    "static/media/talksCardBack.svg": "/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
+    "main.8739755c.css.map": "/static/css/main.8739755c.css.map",
+    "main.1b459e7c.js.map": "/static/js/main.1b459e7c.js.map",
+    "64.aef006b6.chunk.css.map": "/static/css/64.aef006b6.chunk.css.map",
+    "64.56dc6704.chunk.js.map": "/static/js/64.56dc6704.chunk.js.map",
+    "769.b3cbb36b.chunk.css.map": "/static/css/769.b3cbb36b.chunk.css.map",
+    "769.bda0d7b7.chunk.js.map": "/static/js/769.bda0d7b7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8739755c.css",
+    "static/js/main.1b459e7c.js"
+  ]
+}
