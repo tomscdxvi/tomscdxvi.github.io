@@ -16,8 +16,8 @@ export default function Footer() {
           Theme by{" "}
           <a href="https://github.com/saadpasta/developerFolio">
             developerFolio
-          </a>,
-          modified styles and design by Tommy
+          </a>
+          , modified styles and design by Tommy
         </p>
       </div>
     </Fade>

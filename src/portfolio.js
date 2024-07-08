@@ -49,11 +49,16 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "I research a variety of technologies for Software Engineering and Full Stack/Web Development, utilizing them to bring my creative ideas to life.",
+  subTitle:
+    "I research a variety of technologies for Software Engineering and Full Stack/Web Development, utilizing them to bring my creative ideas to life.",
   skills: [
-    emoji("⚡ Develop highly interactive Front-end web and mobile applications"),
+    emoji(
+      "⚡ Develop highly interactive Front-end web and mobile applications"
+    ),
     emoji("⚡ Build Progressive Web Applications (PWA)"),
-    emoji("⚡ Integration of third party services such as Firebase/AWS to deploy your web applications")
+    emoji(
+      "⚡ Integration of third party services such as Firebase/AWS/Heroku to deploy your web applications"
+    )
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -114,7 +119,7 @@ https://fontawesome.com/icons?dnexty=gallery */
     {
       skillName: "Figma",
       fontAwesomeClassname: "fab fa-figma"
-    },
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -148,13 +153,14 @@ const educationInfo = {
     {
       schoolName: "Sheridan College",
       logo: require("./assets/images/sheridan-logo.png"),
-      subHeader: "Advanced Diploma in Software Development and Network Engineering",
+      subHeader:
+        "Advanced Diploma in Software Development and Network Engineering",
       duration: "January 2020 - December 2023",
       desc: "",
       descBullets: [
-        "Founder of the Exercise Lifestyle Club with over 40+ members",
+        "Founder of the Exercise Lifestyle Club with over 40+ members"
       ]
-    },
+    }
   ]
 };
 
@@ -229,7 +235,8 @@ const openSource = {
 
 const bigProjects = {
   title: "Projects",
-  subtitle: "Some startups, companies, and personal projects that I worked on or was directly involved in.",
+  subtitle:
+    "Some startups, companies, and personal projects that I worked on or was directly involved in.",
   projects: [
     {
       image: require("./assets/images/auxo-logo.png"),
@@ -246,7 +253,8 @@ const bigProjects = {
     {
       image: require("./assets/images/bloomsie-logo.jpg"),
       projectName: "Bloomsie",
-      projectDesc: "May 2023 - August 2023: Assisted in the development and production of Bloomsie during my time at Idea Theorem",
+      projectDesc:
+        "May 2023 - August 2023: Assisted in the development and production of Bloomsie during my time at Idea Theorem",
       footerLink: [
         {
           name: "Visit Website",
@@ -291,7 +299,7 @@ const bigProjects = {
         }
         //  you can add extra buttons here.
       ]
-    },
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -423,8 +431,7 @@ const resumeSection = {
 
 const contactInfo = {
   title: emoji("Contact Me"),
-  subtitle:
-    "Let's Chat!",
+  subtitle: "Let's Chat!",
   // number: "",
   email_address: "txmmychiu@gmail.com"
 };
