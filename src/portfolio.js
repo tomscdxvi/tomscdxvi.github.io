@@ -25,8 +25,7 @@ const greeting = {
   subTitle: emoji(
     "Enthusiastic Software Engineer and Full Stack/Web Developer. Proficient in Java, JavaScript, TypeScript, Reactjs, and Nodejs along with some other libraries and frameworks!"
   ),
-  resumeLink:
-    "", // Set to empty to hide the button
+  resumeLink: "", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
